@@ -1,12 +1,14 @@
 <script>
-import Blog from './components/Blog.vue'
-import axios from'axios'
-// import Nav from './components/Nav.vue'
+
+import {RouterView} from 'vue-router'
+
+
 
 export default{
   name:'App',
   components:{
-   Blog,
+    RouterView
+ 
   
   },
 
@@ -20,9 +22,9 @@ export default{
   <main>
    
    
-   <Blog />
    
-  
+   
+  <RouterView />
   </main>
 </template>
 

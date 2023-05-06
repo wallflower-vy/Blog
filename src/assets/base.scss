@@ -1,11 +1,16 @@
 
-
+@mixin mobile {
+  @media (max-width: 480px) {
+    @content;
+  }
+}
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   position: relative;
+  overflow-x: hidden;
   // font-weight: normal;
   
 }

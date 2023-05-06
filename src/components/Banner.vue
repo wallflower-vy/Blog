@@ -26,7 +26,7 @@ export default{
         </div>
         <div class="link-box">
             <small>3 Min Read</small>
-            <a href="http://" target="_blank" rel="noopener noreferrer"> <span>Read Full</span> <span><img src="../assets/arrow.svg" alt=''/></span></a>
+            <router-link class="link" to=""><span >Read Full</span> <span><img src='../assets/arrow.svg'/></span></router-link>
         </div>
     </div>
    </div>

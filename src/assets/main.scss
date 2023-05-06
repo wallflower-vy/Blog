@@ -3,7 +3,17 @@
 #app{
     font-family: 'Playfair Display', serif;
 }
-p, h2, h3{
+p, h2, h3, span{
     font-family: 'Roboto', sans-serif;
     
 }
+@mixin mobile {
+    @media (max-width: 480px) {
+      @content;
+    }
+  }
+  @mixin tablet {
+    @media (max-width: 960px) {
+      @content;
+    }
+  }

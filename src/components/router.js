@@ -1,12 +1,11 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import Blog from './components/Blog.vue'
-import PostDetails from './components/PostDetails .vue'
+// import Vue from 'vue'
+// import Router from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
+import Blog from './Blog.vue'
+import PostDetails from './PostDetails.vue'
 
-Vue.use(Router)
 
-export default new Router({
-  routes: [
+ const routes=[
     {
       path: '/',
       name: 'Blog',
@@ -19,4 +18,8 @@ export default new Router({
       props: true
     }
   ]
+const router =createRouter({
+    history:createWebHistory(import.meta.env.BASE_URL),
+    routes: routes
 })
+export default router
