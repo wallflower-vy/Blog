@@ -3,11 +3,8 @@ $bggreenColor:green;
 $bgPrimary: #6E6E6E;
 $blackColor:#2C2C2C;
 
-@font-face {
-    font-family: 'sf';
-    src: url('../fonts/MyFont.woff2') format('woff2'),
-         url('../fonts/MyFont.woff') format('woff');
-  }
+
+
 @mixin mobile {
     @media (max-width: 480px) {
       @content;
