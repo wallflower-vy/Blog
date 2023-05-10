@@ -38,10 +38,7 @@
     <div>
            
               <div class="card">
-                <div class="img-box">
-                  
-                  <img :src="post.parselyMeta['parsely-image-url']" alt="Profile picture">
-                </div>
+               
                 <div class="content-box">
                     <div class="card-title">
                    <span>{{ post.type }}</span> - <span>{{post.date}}</span>
