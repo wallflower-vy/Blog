@@ -84,7 +84,7 @@ export default{
    <div class="blog-details">
     <div class="post-box">
     <div class="mini-box">
-          <p class="author">{{ blogPost.parselyMeta['parsely-author'][0]}}</p>
+          <!-- <p class="author">{{ blogPost.parselyMeta['parsely-author'][0]}}</p> -->
          <h2>{{ blogPost.slug }}</h2>
     <div v-html="blogPost.content.rendered" class="blogpost-text"></div>
     </div>
