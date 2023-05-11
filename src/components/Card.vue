@@ -40,7 +40,7 @@
               <div class="card">
                 <div class="img-box">
                   
-                  <img :src="post.jetpack_featured_media_urlc" alt="Profile picture">
+                  <img :src="post.jetpack_featured_media_url" alt="Profile picture">
                 </div>
                 <div class="content-box">
                     <div class="card-title">
